@@ -1,4 +1,4 @@
-curl -X POST https://cloud-run-function-with-cicd-715970340101.us-central1.run.app \
+curl -X POST https://ecomm-cloud-run-function-with-cicd-d4nsypl4ta-ew.a.run.app \
 -H "Authorization: bearer $(gcloud auth print-identity-token)" \
 -H "Content-Type: application/json" \
 -d '{
